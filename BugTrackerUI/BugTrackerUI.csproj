@@ -5,11 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\Index.razor~RF4df3e941.TMP" />
     <None Remove="Shared\LeftNav.razor~RF4db4baa2.TMP" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\" />
+    <UpToDateCheckInput Remove="Components\BugList.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\BugList.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\BugList.razor" />
   </ItemGroup>
 
 </Project>
