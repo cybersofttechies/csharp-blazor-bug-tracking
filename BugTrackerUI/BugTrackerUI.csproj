@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Shared\LeftNav.razor~RF4db4baa2.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Components\" />
   </ItemGroup>
 
